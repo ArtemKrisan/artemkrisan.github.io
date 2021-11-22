@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Monoton-Regular;
+  src: url('/fonts/Monoton-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url('/fonts/BebasNeue-Regular.ttf')  format('truetype');
+}
+
+@media (max-width: 536px) { 
+  #menuToggle{
+    display: none;
+  }
+}
+/*
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: #cdcdcd;
+  font-family: "BebasNeue-Regular";
+  
+}
+/*-- MENU --*/
+#menuToggle
+{  
+    z-index: 999;
+    position: fixed;
+    width: 4%;
+    height: 100%;
+    left: 0px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#menuIcon{  
+  padding-top: 10%;
+  padding-left: 25%;
+  font-size: 3em;
+}
+
+#menuToggle ul {
+  position:relative;
+  top: 36%;
+  padding: 0;
+  border-radius: 25px;
+  border: 2px solid #73AD21;  
+  list-style-type: none; 
+  font-size: 1.9em;  
+  text-align: center;
+} 
+#menuToggle ul li  { 
+  padding-top: 12%; 
+}
+
+#menuToggle ul li a {
+  color: #fff;
+}
+
+#menuToggle ul li a:hover {  
+    color: #263238;
+    background: #D4AF37;
+}
+/*-- MENU END --*/
+
+#lead{
+  font-family: "Monoton-Regular";
+  }
+  
+  #lead-content{
+    text-align: center;
+  }
+  
+  p{
+    font-size: 1.4em;
+  }
+
+
+#about{
+  margin-top: 3%;
+}
+
+#projects{
+  margin-top: 3%;
+}
+
+#experience{
+  margin-top: 3%;
+}
+
+#education{
+  margin-top: 3%;
+}
+
+#skills{
+  margin-top: 2%;
+}
+
+.social ul{
+  list-style-type: none; 
+  font-size: 1.6em;  
+}
+
+.social ul li a{ 
+  color: #fff;
+}
+
+.social ul li a:hover {  
+  color: #263238;
+  background: #D4AF37;
+}
+
+.heading{
+  font-family: "Monoton-Regular"
+}
+
+#experience-timeline strong{
+font-size: 1.8em;
+}
+
+footer {  
+  text-align: center;
+  border: 1px solid #cdcdcd;
+}
+
+#contact{
+  padding-top: 1.2%;
+}
